@@ -12,4 +12,4 @@
 - Node js
 - Express js
 - MongoDB
-- Firebase (hosting)
+- Vercel (Hosting)
