@@ -14,8 +14,7 @@ export const Home = ({ children }) => {
   const userContext = useContext(UserContext);
   const authContext = useContext(AuthContext);
   useEffect(() => {
-    userContext.getUserById(authContext.user._id);
-    // eslint-disable-nsxt-line react-hooks/exhaustive-deps
+    userContext.getUserById(authContext.user._id); // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
