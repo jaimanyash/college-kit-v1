@@ -65,7 +65,6 @@ export const CampusSignup = () => {
             <img src="logo1.png" alt="logo" />
           </Grid>
           <Grid item>
-            <h1 id="header-name">College-Kit</h1>
             <Paper elevation={9} variant="elevation">
               <Box pt={5} pb={3} px={3} width="400px">
                 <form onSubmit={handleOnSubmit}>
