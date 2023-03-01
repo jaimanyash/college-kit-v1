@@ -24,7 +24,7 @@
     "react-dom": "^17.0.1",
     "react-moment": "^1.0.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.0",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
@@ -33,7 +33,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://localhost:4040/",
+  "proxy": "https://collegekit.onrender.com",
   "secure": false,
   "eslintConfig": {
     "extends": [
