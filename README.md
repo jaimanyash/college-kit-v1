@@ -12,4 +12,4 @@
 - Node js
 - Express js
 - MongoDB
-- Vercel (Hosting)
+- Render (Hosting)
