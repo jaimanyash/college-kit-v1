@@ -2,9 +2,8 @@
   "name": "project1",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "dev": "concurrently \"cd client && npm start\" \"cd server && node app.js\"",
+    "start": "concurrently \"cd client && npm start\" \"cd server && node app.js\"",
     "install": "concurrently \"cd client && npm install\" \"cd server && npm install\" "
   },
   "author": "",
